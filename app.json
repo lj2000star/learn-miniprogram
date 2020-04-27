@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/image/image",
+    "pages/photo/photo",
+    "pages/listen/listen",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "识鸟",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"gray"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"icons/首页.png",
+      "selectedIconPath":"icons/_首页 .png"},
+      {
+      "pagePath": "pages/image/image",
+      "text": "拍照",
+      "iconPath":"icons/拍照.png",
+      "selectedIconPath":"icons/_拍照 .png"},
+      {
+      "pagePath": "pages/photo/photo",
+      "text": "图库",
+      "iconPath":"icons/图库 .png",
+      "selectedIconPath":"icons/_图库.png"},
+      {
+      "pagePath": "pages/listen/listen",
+      "text": "音频",
+      "iconPath":"icons/声音.png",
+      "selectedIconPath":"icons/_声音.png"},
+      {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath":"icons/人像.png",
+      "selectedIconPath":"icons/_人像.png"}],
+      "color":"#0094ff",
+      "selectedColor":"#ff9400"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

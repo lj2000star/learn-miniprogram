@@ -1,5 +1,0 @@
-<!--pages/demo/demo.wxml
-1 text 相当于以前web中span标签 行内元素 不会换行
-2 view 相当于以前web中div标签 块级元素 会换行
--->
-<text>pages/demo/demo.wxml</text>

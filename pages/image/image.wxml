@@ -1,2 +1,7 @@
-<!--pages/image/image.wxml-->
-<text>pages/image/image.wxml</text>
+<!--index.wxml-->
+
+<view class="container">
+  <view class="usermotto">
+  <button class="button" type="primary" bindtap="uploadImage">{{motto}}</button>
+  </view>
+</view>
